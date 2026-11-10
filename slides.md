@@ -238,7 +238,7 @@ Note:
 
 <p class="eyebrow">Parte C · Resultados</p>
 
-## O centro está em 66 e o espalhamento em 15 pontos
+## Centro em 66, espalhamento de 15 pontos
 
 <div class="grade g5">
 <div class="cartao"><p class="rotulo">Quantidade</p><p class="numero" data-calc="n">1000</p></div>

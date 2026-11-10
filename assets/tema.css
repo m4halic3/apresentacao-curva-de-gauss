@@ -170,7 +170,7 @@
 .reveal pre .hljs-params, .reveal pre .hljs-variable, .reveal pre .hljs-attr, .reveal pre .hljs-operator { color: #FFFFFF; }
 .reveal .hljs-ln-numbers { color: #B9A2BF; padding-right: 18px !important; }
 /* linhas fora do destaque ficam só um pouco mais apagadas, ainda legíveis */
-.reveal .hljs.has-highlights tr:not(.highlight-line) { opacity: 0.6; }
+.reveal .hljs.has-highlights tr:not(.highlight-line) { opacity: 0.3; }
 .reveal .hljs[data-line-numbers]:not([data-fragment-index]) .hljs-ln-line.highlight-line { opacity: 1; }
 .arquivo { font-family: monospace; font-size: 22px !important; color: var(--texto-suave-claro); margin-bottom: 8px !important; }
 .reveal :not(pre) > code { color: var(--roxo-medio); }
