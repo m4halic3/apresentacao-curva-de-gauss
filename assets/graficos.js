@@ -384,13 +384,13 @@
   }
 
   /* ---------- Cronômetro ---------- */
-  var cron = { el: null, total: 600, inicio: null, pausado: 0, timer: null };
+  var cron = { el: null, total: 300, inicio: null, pausado: 0, timer: null };
   function atualizarCron() {
-    if (cron.inicio === null) { cron.el.textContent = "10:00"; return; }
+    if (cron.inicio === null) { cron.el.textContent = "5:00"; return; }
     var resto = cron.total - Math.floor((Date.now() - cron.inicio) / 1000);
     var a = Math.abs(resto), txt = Math.floor(a / 60) + ":" + String(a % 60).padStart(2, "0");
     cron.el.textContent = resto < 0 ? "+" + txt : txt;
-    cron.el.classList.toggle("alerta", resto <= 120 && resto >= 0);
+    cron.el.classList.toggle("alerta", resto <= 60 && resto >= 0);
     cron.el.classList.toggle("acabou", resto < 0);
   }
   function alternarCron() {
